@@ -1,22 +1,21 @@
 {
-  "version": "1.0",
+ "version": "1.0",
   "ai": {
-    "provider": "openai",
-    "model": "gpt-4",
-    "api_key_env": "OPENAI_API_KEY",
+    "provider": "xiaomi",
+    "model": "mimo-v2.5",
+    "api_key_env": "XIAOMI_API_KEY",
+    "base_url": "https://token-plan-cn.xiaomimimo.com/v1",
     "temperature": 0.3,
-    "max_tokens": 4096,
-    "throttle_sec": 0,
-    "analysis_concurrency": 1,
-    "enrichment_concurrency": 1
+    "max_tokens": 4096
   },
   "email": {
-    "enabled": false,
+    "enabled": true,
     "smtp_server": "smtp.qq.com",
     "smtp_port": 465,
     "imap_server": "imap.qq.com",
     "imap_port": 993,
-    "email_address": "xxx@qq.com",
+    "email_address": "1471991366@qq.com",
+    "password_env": "EMAIL_PASSWORD",
     "sender_name": "Horizon Daily",
     "subscribe_keyword": "SUBSCRIBE",
     "unsubscribe_keyword": "UNSUBSCRIBE"
