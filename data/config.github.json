@@ -1,7 +1,7 @@
 {
  "version": "1.0",
   "ai": {
-    "provider": "xiaomi",
+    "provider": "openai",
     "model": "mimo-v2.5",
     "api_key_env": "XIAOMI_API_KEY",
     "base_url": "https://token-plan-cn.xiaomimimo.com/v1",
