@@ -6,7 +6,7 @@
     "api_key_env": "XIAOMI_API_KEY",
     "base_url": "https://token-plan-cn.xiaomimimo.com/v1",
     "temperature": 0.3,
-    "max_tokens": 4096
+    "max_tokens": 4096,
     "languages": ["en", "zh"]
   },
   "email": {
